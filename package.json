@@ -1,0 +1,68 @@
+{
+  "name": "clipman",
+  "version": "0.0.2",
+  "description": "Clipman is a chrome tool that enhances the way you copy and paste content when working on the browser. You can switch between tabs copying as much content as you want and store them in an unlimited number of clipboards. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "bundle": "mkdir dist/clipman & jspm bundle-sfx src/app.js - react + jquery dist/clipman/bundle.js --minify & cd dist/clipman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmeech/clipman.git"
+  },
+  "keywords": [
+    "clipboard",
+    "cut",
+    "copy",
+    "paste"
+  ],
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/clipman/issues"
+  },
+  "homepage": "https://github.com/bigmeech/clipman#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "bluebird": "^3.4.7",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2",
+    "request-promise": "^4.1.1",
+    "store": "^1.3.20"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "gh-release-assets": "^1.1.0",
+    "github": "^7.1.0",
+    "gulp": "^3.9.1",
+    "gulp-github-release": "^1.2.0",
+    "jspm": "^0.16.48",
+    "mkdir": "0.0.2",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.7.5"
+  },
+  "jspm": {
+    "name": "clipman",
+    "main": "src/index.js",
+    "configFile": "src/config.js",
+    "directories": {
+      "packages": "src/jspm_packages",
+      "baseUrl": "src"
+    },
+    "dependencies": {
+      "jquery": "npm:jquery@^3.1.1",
+      "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
+      "lodash": "npm:lodash@^4.17.2",
+      "react": "npm:react@^15.4.1"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17",
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

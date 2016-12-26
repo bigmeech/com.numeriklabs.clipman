@@ -1,0 +1,40 @@
+#sb-popup{
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    background-color: rgba(74, 99, 132, 0.43);
+    top: 0;
+    left: 0;
+}
+.sb-content{
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb-clipboard:focus{
+    outline-color: cornsilk;
+    outline: 5px solid #f3f3f3;
+    outline-offset: 5px;
+}
+.sb-clipboard{
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.clip-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
