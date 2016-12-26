@@ -1,0 +1,26 @@
+html, body{  }
+
+
+#settings{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+
+#logo img,
+#logo h3{
+    display: inline-block;
+    margin: 10px;
+}
+
+.setting h6{
+    color: brown;
+}
+
+
+.setting label{
+    display: block;
+}
+
+
