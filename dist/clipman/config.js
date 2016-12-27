@@ -21,6 +21,7 @@ System.config({
     "jsx": "github:floatdrop/plugin-jsx@1.2.1",
     "lodash": "npm:lodash@4.17.2",
     "react": "npm:react@15.4.1",
+    "react-dom": "npm:react-dom@15.4.1",
     "github:floatdrop/plugin-jsx@1.2.1": {
       "react-tools": "npm:react-tools@0.13.3"
     },
@@ -470,6 +471,13 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:react-dom@15.4.1": {
+      "fbjs": "npm:fbjs@0.8.8",
+      "loose-envify": "npm:loose-envify@1.3.0",
+      "object-assign": "npm:object-assign@4.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "react": "npm:react@15.4.1"
     },
     "npm:react-tools@0.13.3": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
