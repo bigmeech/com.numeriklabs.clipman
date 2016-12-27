@@ -1,6 +1,6 @@
 {
   "name": "clipman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Clipman is a chrome tool that enhances the way you copy and paste content when working on the browser. You can switch between tabs copying as much content as you want and store them in an unlimited number of clipboards. ",
   "main": "index.js",
   "scripts": {
