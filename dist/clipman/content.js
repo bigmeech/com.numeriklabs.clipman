@@ -1,3 +1,8 @@
-import './components/app/app.jsx!';
+import AppComponent from './components/app/app.jsx!'
+import ReactDom from 'react-dom'
+import React from 'react'
 
-console.log('this is just a test');
+ReactDom.render(
+    React.createElement(AppComponent),
+    document.getElementById('clipman-extension')
+);
