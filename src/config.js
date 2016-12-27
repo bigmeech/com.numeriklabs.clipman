@@ -9,8 +9,8 @@ System.config({
     ]
   },
   paths: {
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "github:*": "src/jspm_packages/github/*",
+    "npm:*": "src/jspm_packages/npm/*"
   },
 
   map: {
@@ -300,7 +300,7 @@ System.config({
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:esprima@3.1.2": {
+    "npm:esprima@3.1.3": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -309,13 +309,14 @@ System.config({
       "create-hash": "npm:create-hash@1.1.2",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0"
     },
-    "npm:fbjs@0.8.6": {
+    "npm:fbjs@0.8.8": {
       "core-js": "npm:core-js@1.2.7",
       "isomorphic-fetch": "npm:isomorphic-fetch@2.2.1",
       "loose-envify": "npm:loose-envify@1.3.0",
       "object-assign": "npm:object-assign@4.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "promise": "npm:promise@7.1.1",
+      "setimmediate": "npm:setimmediate@1.0.5",
       "ua-parser-js": "npm:ua-parser-js@0.7.12"
     },
     "npm:glob@5.0.15": {
@@ -477,7 +478,7 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:react@15.4.1": {
-      "fbjs": "npm:fbjs@0.8.6",
+      "fbjs": "npm:fbjs@0.8.8",
       "loose-envify": "npm:loose-envify@1.3.0",
       "object-assign": "npm:object-assign@4.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
@@ -507,7 +508,7 @@ System.config({
     "npm:recast@0.11.18": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "ast-types": "npm:ast-types@0.9.2",
-      "esprima": "npm:esprima@3.1.2",
+      "esprima": "npm:esprima@3.1.3",
       "os": "github:jspm/nodelibs-os@0.1.0",
       "private": "npm:private@0.1.6",
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -515,6 +516,9 @@ System.config({
     },
     "npm:ripemd160@1.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:setimmediate@1.0.5": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:sha.js@2.4.8": {

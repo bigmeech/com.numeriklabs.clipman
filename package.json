@@ -1,6 +1,6 @@
 {
   "name": "clipman",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Clipman is a chrome tool that enhances the way you copy and paste content when working on the browser. You can switch between tabs copying as much content as you want and store them in an unlimited number of clipboards. ",
   "main": "index.js",
   "scripts": {
@@ -42,16 +42,16 @@
     "jspm": "^0.16.48",
     "mkdir": "0.0.2",
     "mkdirp": "^0.5.1",
+    "s3-cli": "^0.13.0",
     "shelljs": "^0.7.5"
   },
   "jspm": {
-    "name": "clipman",
     "main": "src/index.js",
-    "configFile": "src/config.js",
     "directories": {
-      "packages": "src/jspm_packages",
-      "baseUrl": "src"
+      "baseUrl": "src",
+      "packages": "src/jspm_packages"
     },
+    "configFile": "src/config.js",
     "dependencies": {
       "jquery": "npm:jquery@^3.1.1",
       "jsx": "github:floatdrop/plugin-jsx@^1.2.1",
@@ -59,10 +59,10 @@
       "react": "npm:react@^15.4.1"
     },
     "devDependencies": {
-      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17",
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4"
+      "core-js": "npm:core-js@^1.1.4",
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17"
     }
   }
 }
