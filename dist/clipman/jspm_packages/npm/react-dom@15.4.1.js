@@ -1,1 +1,0 @@
-module.exports = require("npm:react-dom@15.4.1/index.js");
