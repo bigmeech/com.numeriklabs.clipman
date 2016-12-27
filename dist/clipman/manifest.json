@@ -19,9 +19,7 @@
       "css":[
         "styles.css"
       ],
-      "js": [
-        "dist/clipman.js"
-      ]
+      "js": ["content.js"]
     }
   ],
   "permissions": [
