@@ -28,7 +28,7 @@
   "browser_action": {
     "default_title": "Clipman",
     "default_icon": "assets/icon_16.png",
-    "default_popup": "src/popup.html"
+    "default_popup": "index.html"
   },
   "web_accessible_resources":[
     "dialog.html"
