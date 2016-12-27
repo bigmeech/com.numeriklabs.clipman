@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="settings">
+    <div id="logo">
+        <img src="assets/icon_48.png"/>
+        <h3>Smartboard</h3>
+    </div>
+    <div class="setting">
+        <h6>Activation</h6>
+        <label>
+            <input type="checkbox"/>
+            <span>Activate</span>
+        </label>
+    </div>
+
+    <div class="setting">
+        <h6>HUD Display</h6>
+        <label>
+            <button id="btnCaptureShortCut" onclick="showHud()">Capture Shortcut</button>
+        </label>
+    </div>
+
+    <div class="setting">
+        <h6>Clipboard</h6>
+        <label>
+            <span>Allocate </span><input type="number" min="5" max="30" value="5"/><span> clipboards</span>
+        </label>
+        <label>
+            <input type="checkbox" min="5" max="30" value="5"/>
+            <span>Enable sticky content</span>
+        </label>
+    </div>
+</div>
+</body>
+</html>
