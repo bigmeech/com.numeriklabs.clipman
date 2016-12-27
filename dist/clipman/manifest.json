@@ -17,7 +17,7 @@
     {
       "matches": ["http://*/*","https://*/*"],
       "css":["css/styles.css"],
-      "js": ["content.js"]
+      "js": ["bundle.js"]
     }
   ],
   "permissions": [
