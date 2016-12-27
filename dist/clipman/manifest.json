@@ -27,7 +27,7 @@
     "https://*.google.com/"],
   "browser_action": {
     "default_title": "Clipman",
-    "default_icon": "assets/attach_file.png",
+    "default_icon": "assets/clipman_icon_16.png",
     "default_popup": "index.html"
   },
   "web_accessible_resources":[
