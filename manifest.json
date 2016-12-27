@@ -1,6 +1,6 @@
 {
   "name": "Clipman",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Clipman is a simple and intuitive chrome utility that extends chrome to support multiple copy and paste operations.",
   "manifest_version": 2,
   "icons": {
