@@ -10,7 +10,7 @@
   },
   "background": {
     "persistent": false,
-    "scripts": ["index.js"]
+    "scripts": ["background.js"]
   },
   "incognito":"spanning",
   "content_scripts":[
