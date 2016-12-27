@@ -1,3 +1,3 @@
-/**
- * Created by tthlex on 27/12/2016.
- */
+import './components/app.jsx';
+
+console.log('this is just a test');
